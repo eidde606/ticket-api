@@ -6,7 +6,7 @@ app = FastAPI()
 
 # Set up CORS
 origins = [
-    "https://ephemeral-bubblegum-4b0b0c.netlify.app",
+    "https://localhost:3000",
 ]
 app.add_middleware(
     CORSMiddleware,
