@@ -5,7 +5,7 @@ from routes.route import router
 app = FastAPI()
 
 # Set up CORS
-origins = ["https://localhost:3000", "https://ephemeral-bubblegum-4b0b0c.netlify.app"]
+origins = ["https://localhost:8000/", "https://ephemeral-bubblegum-4b0b0c.netlify.app"]
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
